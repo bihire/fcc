@@ -1,6 +1,6 @@
 <template>
   <Panel class="py-3 black--text">
-    <v-container fluid grid-list-md>
+    <v-container fluid grid-list-md class="mt-0">
       <v-layout row wrap>
         <v-flex xs5 md4>
           <v-layout class="mb-4">

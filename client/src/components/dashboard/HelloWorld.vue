@@ -5,7 +5,10 @@
         <div class="card-img" id="img01"></div>
         <div class="card-content">
           <p class="card-theme">Travel</p>
-          <h2 class="card-header">Amongst the giants</h2>
+          <h2 class="card-header">
+            WELCOME
+            TO OUR COMPANY
+          </h2>
           <p
             class="card-para"
           >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti repellendus vel neque iure aut, eligendi aliquid vero facilis, quia repellat.</p>

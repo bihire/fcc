@@ -13,3 +13,9 @@ export default {
   components: { VueExtendLayouts }
 };
 </script>
+<style>
+body {
+  font-family: "Roboto", sans-serif;
+}
+</style>
+

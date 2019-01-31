@@ -1,6 +1,6 @@
 <template>
   <panel>
-    <section>
+    <section class="my-5">
       <v-layout column wrap align-left>
         <v-flex xs12 sm4 class="mb-3">
           <div class="text-xs-left">
@@ -9,11 +9,11 @@
           </div>
         </v-flex>
         <v-flex xs12>
-          <v-container grid-list-xl>
+          <v-container grid-list-xl class="bro">
             <v-layout row wrap align-center>
-              <v-flex xs12 md3>
-                <v-card class="elevation-4 transparent">
-                  <v-img class="white--text" height="100%" :src="images.sample4">
+              <v-flex xs12 md4>
+                <v-card class="transparent">
+                  <v-img class="white--text" height="300" :src="images.sample4">
                     <v-container fill-height fluid>
                       <v-layout fill-height>
                         <v-flex xs12 align-end flexbox>
@@ -33,9 +33,9 @@
                 </v-card>
               </v-flex>
 
-              <v-flex xs12 md3>
+              <!-- <v-flex xs12 md4>
                 <v-card class="elevation-4 transparent justify-top">
-                  <v-img class="white--text" height="100%" :src="images.sample">
+                  <v-img class="white--text" height="300" :src="images.sample">
                     <v-container fill-height fluid>
                       <v-layout fill-height>
                         <v-flex xs12 align-end flexbox>
@@ -46,14 +46,13 @@
                   </v-img>
 
                   <v-card-text>Our mission is to ensure long-term sustaining by harmonizing the needs of our client's customers and suppliers and shareholders
-                    <!-- while ensuring that they are able to attract, retain, develop and deploy people with energy, passion and skills.-->
+                    while ensuring that they are able to attract, retain, develop and deploy people with energy, passion and skills.
                   </v-card-text>
                 </v-card>
-              </v-flex>
-
-              <v-flex xs12 md3>
-                <v-card class="elevation-4 transparent">
-                  <v-img class="white--text" height="100%" :src="images.sample1">
+              </v-flex>-->
+              <v-flex xs12 md4>
+                <v-card class="transparent">
+                  <v-img class="white--text" height="300" :src="images.sample1">
                     <v-container fill-height fluid>
                       <v-layout fill-height>
                         <v-flex xs12 align-end flexbox>
@@ -67,9 +66,9 @@
                 </v-card>
               </v-flex>
 
-              <v-flex xs12 md3>
-                <v-card class="elevation-4 transparent">
-                  <v-img class="white--text" height="100%" :src="images.sample3">
+              <v-flex xs12 md4>
+                <v-card class="transparent">
+                  <v-img class="white--text" height="300" :src="images.sample3">
                     <v-container fill-height fluid>
                       <v-layout fill-height>
                         <v-flex xs12 align-end flexbox>
@@ -115,3 +114,8 @@ export default {
   }
 };
 </script>
+<style scoped>
+.bro {
+  margin-left: -22px;
+}
+</style>

@@ -1,17 +1,11 @@
 <template>
   <Panel class="py-3 black--text">
-    <v-container fluid grid-list-md>
+    <v-container fluid grid-list-md class="mt-0">
       <v-layout row wrap>
         <v-flex xs4 md4>
           <v-card class="elevation-4 transparent">
             <v-img class="white--text" height="100%" :src="images.sample3">
-              <v-container fill-height fluid>
-                <v-layout fill-height>
-                  <v-flex xs12 align-end flexbox>
-                    <span class="headline">CORPORATE PRINCIPLES</span>
-                  </v-flex>
-                </v-layout>
-              </v-container>
+              
             </v-img>
           </v-card>
         </v-flex>
@@ -30,7 +24,7 @@
           <v-layout>
             <v-flex>
               <div class="text-xs-left">
-                <p class="font-weight-light.font-italic subheading py-1">
+                <p class="font-weight-light.font-italic body-2 py-1">
                   We have very high regard for customer service, a belief /virtue that is
                   unrivalled within the industry. We strongly believe that a customer
                   should be treated with utmost care and urgency. All staff and personnel
@@ -38,8 +32,8 @@
                   for successful client relation and customer service.
                 </p>
 
-                <p class="font-weight-light.font-italic subheading py-1">
-                  Savannah’s vast knowledge of the region, third party alliances and
+                <p class="font-weight-light.font-italic body-2 py-1">
+                  FERRARI Courier LIMITED vast knowledge of the region, third party alliances and
                   connections enable us handle your logistics professionally and
                   expeditiously.
                 </p>

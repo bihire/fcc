@@ -8,8 +8,10 @@
             <img src="https://img-msg.tb-list.com/g-loves/1347/1507922592.png" alt>
           </div>
           <v-spacer></v-spacer>
-          <v-toolbar-items class="items hidden-sm-and-down">
+          <v-toolbar-items class="items">
             <ul class="navigation-list">
+              <li>About us</li>
+              <li>Contacts</li>
               <li>Blog</li>
               <li>Sign In</li>
             </ul>

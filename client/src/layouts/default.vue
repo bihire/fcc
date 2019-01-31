@@ -4,11 +4,11 @@
       <div>
         <div class="toolbar">
           <div id="navbarblock">
-            <pageHeader id="navbar"></pageHeader>
+            <pageHeader id="navbar" class="elevation-2"></pageHeader>
 
             <v-content>
               <v-container class="container">
-                <ContentBar class="contentbar"/>
+                <!-- <ContentBar class="contentbar"/> -->
                 <router-view/>
                 <footing/>
               </v-container>
